@@ -23,7 +23,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| [**Fábregas**](mobile/fabregas) | App de tienda de tecnología: catálogo por secciones, detalle de producto, sucursales y perfil. | React Native · Expo Router · NativeWind · TypeScript |
+| [**Fábregas**](mobile/fabregas) · [▶ Probar demo](https://ezedeli.github.io/Proyectos/demo/fabregas/) | App de tienda de tecnología: catálogo por secciones, detalle de producto, sucursales y perfil. **Se puede usar online.** | React Native · Expo Router · NativeWind · TypeScript |
 | [**Calculadora**](mobile/calculadora) | Calculadora con parser propio que respeta la precedencia de operaciones (sin `eval`). | React Native · Expo · TypeScript |
 | [**Prácticas**](mobile/practicas) | Seis ejercicios: estilos, imágenes, componentes con props, estado y navegación. | React Native · Expo |
 
@@ -40,7 +40,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 | [**ETL de datos climáticos**](datos/etl-clima) | Pipeline que corre cada hora: API del clima → Pandas → data warehouse, con alertas por mail. | Python · Airflow · Docker · Redshift |
 | [**Facturación de Adidas**](datos/powerbi-adidas) | Modelo de datos y dashboard interactivo de ventas y rentabilidad, con informe de conclusiones. | Power BI · SQL |
 | [**Bodegas y vinos**](datos/tableau-vinos) | Análisis del mercado de vinos españoles: KPIs, mapa por región y precios. | Tableau |
-| [**Dashboard en Excel**](datos/excel-dashboard) | Análisis y dashboard interactivo con tablas dinámicas y segmentadores. | Excel |
+| [**Dashboard en Excel**](datos/excel-dashboard) | Presupuesto y estado de obras: tablas dinámicas, gráficos y segmentadores. | Excel |
 
 ---
 

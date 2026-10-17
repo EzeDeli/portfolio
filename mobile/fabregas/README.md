@@ -1,5 +1,7 @@
 # Fábregas — App de tienda de tecnología
 
+**▶ [Probala online](https://ezedeli.github.io/Proyectos/demo/fabregas/)**: es la misma app, exportada a web.
+
 App móvil para una cadena ficticia de tiendas de tecnología y electrodomésticos. Permite recorrer el catálogo por categoría, ver el detalle de cada producto, consultar las sucursales y ver el perfil del cliente.
 
 <p align="center">

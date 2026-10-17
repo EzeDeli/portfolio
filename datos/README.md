@@ -56,4 +56,4 @@ Se puede filtrar por año. Para abrirlo: `bodegas-y-vinos.twbx` con Tableau.
 
 <img src="excel-dashboard/captura.png" width="520">
 
-Análisis de facturación y rentabilidad trimestral, con tablas dinámicas, segmentadores, mapa por estado y semáforo de rentabilidad.
+Dashboard de presupuesto y estado de obras: presupuesto total y cantidad de obras, evolución por estado, distribución por barrio y por tipo de obra, con segmentadores por prioridad, resultado, accidentes y estado.

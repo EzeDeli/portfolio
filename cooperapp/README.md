@@ -8,6 +8,25 @@ Sistema web para que cooperativas y pequeñas empresas lleven su administración
 
 ## Capturas
 
+> Datos de prueba de una empresa ficticia ("Metalúrgica del Oeste S.A.").
+
+**Panel general**: indicadores del mes, últimos movimientos y alertas de stock.
+<img src="capturas/panel-general.png" width="820">
+
+**Reportes por período**: atajos de período, cuatro formas de agrupar y descarga en Excel y PDF.
+<img src="capturas/reportes.png" width="820">
+
+| Reporte descargado en PDF | Stock calculado a partir de los movimientos |
+|---|---|
+| <img src="capturas/reporte-pdf.png" width="400"> | <img src="capturas/stock.png" width="420"> |
+
+| Movimientos de dinero | Catálogo de servicios |
+|---|---|
+| <img src="capturas/movimientos.png" width="410"> | <img src="capturas/servicios.png" width="410"> |
+
+<details>
+<summary><b>Alta de empresas y usuarios</b></summary>
+
 | Registro de una cooperativa | Panel del superadmin |
 |---|---|
 | <img src="capturas/registro-cooperativa.png" width="380"> | <img src="capturas/aprobacion-cooperativas.png" width="420"> |
@@ -15,6 +34,8 @@ Sistema web para que cooperativas y pequeñas empresas lleven su administración
 | Usuarios de la empresa | Alta de usuario |
 |---|---|
 | <img src="capturas/usuarios-cooperativa.png" width="420"> | <img src="capturas/creacio-usuario.png" width="380"> |
+
+</details>
 
 ## Qué hace
 

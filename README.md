@@ -17,7 +17,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 | [**CooperApp**](cooperapp) | Sistema de gestión para cooperativas y pymes: varias empresas en una plataforma, 4 roles, finanzas, stock, servicios y reportes en PDF/CSV. Fui el desarrollador principal de un equipo. *(código privado: caso de estudio)* | Node.js · Express · MySQL · bcrypt |
 | [**ABM de usuarios**](web/abm-usuarios-php) | Alta, baja y modificación de usuarios con login, protegido contra inyección SQL, XSS y CSRF. | PHP · MySQL · Bootstrap |
 
-<p align="center"><img src="cooperapp/capturas/registro-cooperativa.png" width="420"></p>
+<p align="center"><img src="cooperapp/capturas/reportes.png" width="640"></p>
 
 ### 📱 Apps mobile
 

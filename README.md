@@ -37,6 +37,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
+| [**Optimización de consultas SQL**](datos/optimizacion-sql) | Seis consultas lentas típicas sobre 1 millón de pedidos, el antes y el después con tiempos medidos, y cómo se resolvió cada una. | SQL · MySQL / MariaDB · Python |
 | [**ETL de datos climáticos**](datos/etl-clima) | Pipeline que corre cada hora: API del clima → Pandas → data warehouse, con alertas por mail. | Python · Airflow · Docker · Redshift |
 | [**Facturación de Adidas**](datos/powerbi-adidas) | Modelo de datos y dashboard interactivo de ventas y rentabilidad, con informe de conclusiones. | Power BI · SQL |
 | [**Bodegas y vinos**](datos/tableau-vinos) | Análisis del mercado de vinos españoles: KPIs, mapa por región y precios. | Tableau |

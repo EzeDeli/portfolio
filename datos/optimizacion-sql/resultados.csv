@@ -1,0 +1,7 @@
+caso,consulta,original_sin_indices_s,original_con_indices_s,reescrita_con_indices_s,mismo_resultado
+1,"Historial de un cliente (pantalla ""ver pedidos del cliente"")",0.4362366,0.0002899,0.0002849,sí
+2,Ventas de un mes (función sobre la columna de fecha),0.3438266,0.2155749,0.0208414,sí
+3,Clientes de una provincia que no compran hace 3 meses (subconsulta por cada fila),,0.1620466,0.1424733,sí
+4,Buscar un cliente por CUIT (el CUIT se guarda como texto y se busca como número),0.0330251,0.0342179,0.0002382,sí
+5,Página 25.001 del listado de pedidos (OFFSET grande),0.3104908,0.3147173,0.0004138,sí
+6,Los 10 productos más vendidos de un mes,3.3200631,0.4765131,0.2634906,sí

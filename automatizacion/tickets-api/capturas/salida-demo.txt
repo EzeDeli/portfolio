@@ -1,0 +1,56 @@
+
+== 1. La mesa de ayuda arranca (falla 1 de cada 3 pedidos)
+== 2. Un día de trabajo en el sistema existente
+Evento 1 [stock_bajo] Stock bajo de Yerba 1 kg: quedan 35 unidades (mínimo 40).
+Evento 2 [stock_bajo] Stock bajo de Aceite girasol 1,5 l: quedan 20 unidades (mínimo 25).
+Evento 3 [stock_bajo] Stock bajo de Lavandina 2 l: quedan 15 unidades (mínimo 20).
+Evento 4 [pedido_demorado] El pedido 5002 de Supermercado El Sol está demorado (compromiso: 2026-10-21).
+Evento 5 [reclamo] Reclamo de Kiosco La Esquina por el pedido 5003: Llegaron 2 cajas golpeadas
+
+== 3. Corre el worker
+  WARNING HTTP 503: {"error": "Servicio no disponible, reintente"} (intento 1). Reintento en 0.2 s
+  WARNING HTTP 503: {"error": "Servicio no disponible, reintente"} (intento 2). Reintento en 0.4 s
+  INFO    Evento 1 -> ticket #1001 (Compras)
+  WARNING HTTP 503: {"error": "Servicio no disponible, reintente"} (intento 1). Reintento en 0.2 s
+  INFO    Evento 2 -> ticket #1002 (Compras)
+  INFO    Evento 3 -> ticket #1003 (Compras)
+  WARNING HTTP 503: {"error": "Servicio no disponible, reintente"} (intento 1). Reintento en 0.2 s
+  INFO    Evento 4 -> ticket #1004 (Logística)
+  WARNING HTTP 503: {"error": "Servicio no disponible, reintente"} (intento 1). Reintento en 0.2 s
+  INFO    Evento 5 -> ticket #1005 (Atención al cliente)
+
+   #  tipo            estado    intentos  ticket
+   1  stock_bajo      enviado          1  #1001
+   2  stock_bajo      enviado          1  #1002
+   3  stock_bajo      enviado          1  #1003
+   4  pedido_demorado enviado          1  #1004
+   5  reclamo         enviado          1  #1005
+
+== 4. Corre otra vez: no hay nada nuevo, no se duplica nada
+  Tickets creados en esta pasada: 0. Tickets en la mesa de ayuda: 5
+
+== 5. Se corta la API y entra un reclamo nuevo
+  WARNING Sin conexión con la API: conexión rechazada (intento 1). Reintento en 0.2 s
+  WARNING Sin conexión con la API: conexión rechazada (intento 2). Reintento en 0.4 s
+  ERROR   Evento 6 sin ticket: Sin conexión con la API: conexión rechazada
+
+   #  tipo            estado    intentos  ticket
+   1  stock_bajo      enviado          1  #1001
+   2  stock_bajo      enviado          1  #1002
+   3  stock_bajo      enviado          1  #1003
+   4  pedido_demorado enviado          1  #1004
+   5  reclamo         enviado          1  #1005
+   6  reclamo         error            1  -
+
+== 6. Vuelve la API: el evento pendiente se envía en la siguiente pasada
+  INFO    Evento 6 -> ticket #1006 (Atención al cliente)
+
+   #  tipo            estado    intentos  ticket
+   1  stock_bajo      enviado          1  #1001
+   2  stock_bajo      enviado          1  #1002
+   3  stock_bajo      enviado          1  #1003
+   4  pedido_demorado enviado          1  #1004
+   5  reclamo         enviado          1  #1005
+   6  reclamo         enviado          2  #1006
+
+Listo: 6 tickets creados, uno por evento, y un mail por cada uno en salida/mails/.

@@ -40,6 +40,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 | Proyecto | Qué es | Stack |
 |---|---|---|
 | [**Carga automática de Excel**](automatizacion/carga-excel) | Las planillas de cada sucursal se cargan solas en la base: limpia y valida cada fila, separa los errores con el motivo y avisa por mail. Antes se copiaban a mano. | Python · openpyxl · SQL · SMTP |
+| [**Tickets automáticos por API**](automatizacion/tickets-api) | Cuando baja el stock, se demora un pedido o entra un reclamo, la base lo detecta, se crea el ticket en la mesa de ayuda por API y llega un mail al área. Con reintentos y sin duplicados. | Python · SQL (triggers) · API REST · SMTP |
 
 ### 📊 Datos
 

@@ -16,6 +16,7 @@ I work as a developer in the Systems department at Digitrack, an Argentine compa
 |---|---|---|
 | [**SQL query optimization**](datos/optimizacion-sql/README.en.md) | Six typical slow queries on a database with 1 million orders, measured before and after: one went from over 2 minutes to 142 ms, with the exact same result. | SQL · MySQL / MariaDB · Python |
 | [**Automated Excel loading**](automatizacion/carga-excel/README.en.md) | Each branch's spreadsheets load themselves into the database: every row is cleaned and validated, errors are set aside with the reason, and a summary email is sent. They used to be copied by hand. | Python · openpyxl · SQL · SMTP |
+| [**Automatic tickets through an API**](automatizacion/tickets-api/README.en.md) | When stock runs low, an order is delayed or a complaint comes in, the database detects it, a ticket is created in the help desk through its API and the department gets an email. With retries and no duplicates. | Python · SQL (triggers) · REST API · SMTP |
 | [**CooperApp**](cooperapp/README.en.md) | Management system for cooperatives and small businesses: multiple companies on one platform, 4 roles, finances, stock and PDF/CSV reports. I was the lead developer of the team. *(private code: case study)* | Node.js · Express · MySQL · bcrypt |
 
 <p align="center"><img src="datos/optimizacion-sql/grafico.svg" width="720" alt="Query times before and after optimizing"></p>

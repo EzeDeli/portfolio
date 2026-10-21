@@ -1,5 +1,7 @@
 # Ezequiel Delipetro — Portfolio
 
+🌐 **Español** · [English](README.en.md)
+
 **Desarrollador de Sistemas** · SQL · Integración de APIs · Automatización de procesos · Desarrollo web y mobile · Análisis de datos
 
 Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplicación web de la empresa a una plataforma low-code, optimicé las consultas que la trababan y automaticé la generación de tickets por API. En este repositorio están mis proyectos, todos en un solo lugar.

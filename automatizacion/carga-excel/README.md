@@ -1,5 +1,7 @@
 # De copiar Excel a mano a una carga automática con aviso por mail
 
+🌐 **Español** · [English](README.en.md)
+
 **El problema:** cada sucursal manda todos los días su planilla de ventas. Alguien de administración las abre, copia las filas a un Excel general o al sistema, y corrige lo que encuentra: fechas escritas de mil formas, importes con "$" y puntos, códigos que no existen, ventas repetidas. Lleva tiempo todos los días, y los errores que se escapan aparecen después en los reportes.
 
 **La solución:** un proceso que corre solo cada 15 minutos. Toma las planillas nuevas, limpia y valida cada fila, carga las correctas en la base de datos, separa las que tienen errores con el motivo, y avisa por mail cómo salió.

@@ -1,5 +1,7 @@
 # CooperApp — Gestión para cooperativas y pymes
 
+🌐 **Español** · [English](README.en.md)
+
 > **Código privado.** CooperApp puede convertirse en un producto comercial, así que acá muestro qué hace y cómo está construido, sin el código fuente. Si querés ver una demo en vivo, escribime.
 
 Sistema web para que cooperativas y pequeñas empresas lleven su administración en un solo lugar: usuarios y permisos, finanzas, catálogo, stock, servicios y reportes descargables. Cada empresa ve solo sus datos y activa los módulos que necesita.

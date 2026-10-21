@@ -1,5 +1,7 @@
 # Optimización de consultas SQL: antes y después
 
+🌐 **Español** · [English](README.en.md)
+
 > "El sistema anda lento" casi nunca se arregla con un servidor más grande. Casi siempre son unas pocas consultas que no estaban pensadas para la cantidad de datos que hay hoy.
 
 Armé una base de una distribuidora con **1.000.000 de pedidos**, 2.000.000 de ítems y 100.000 clientes. Le cargué seis consultas que aparecen todo el tiempo en sistemas reales, medí cuánto tardan y las optimicé una por una. Todo se puede reproducir con un comando.

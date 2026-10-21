@@ -33,6 +33,12 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
   <img src="mobile/calculadora/capturas/calculadora.jpeg" width="200">
 </p>
 
+### ⚙️ Automatización
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [**Carga automática de Excel**](automatizacion/carga-excel) | Las planillas de cada sucursal se cargan solas en la base: limpia y valida cada fila, separa los errores con el motivo y avisa por mail. Antes se copiaban a mano. | Python · openpyxl · SQL · SMTP |
+
 ### 📊 Datos
 
 | Proyecto | Qué es | Stack |

@@ -1,0 +1,6 @@
+# Lo genera el proceso al correr
+entrada/
+procesados/
+salida/
+.env
+__pycache__/

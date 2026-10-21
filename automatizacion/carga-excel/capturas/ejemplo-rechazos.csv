@@ -1,0 +1,8 @@
+﻿archivo;fila;motivo;datos
+ventas_centro_2026-10-20.xlsx;14;Producto que no está en el catálogo: Z999;C-1013 | 20/10/2026 | Z999 | 1 | 2800
+ventas_centro_2026-10-20.xlsx;20;Cantidad inválida: -2;C-1019 | 20/10/2026 | C301 | -2 | 1900
+ventas_centro_2026-10-20.xlsx;43;Venta repetida (ya estaba cargada): C-1006;C-1006 | 20/10/2026 | C301 | 1 | 1900
+ventas_norte_2026-10-20.xlsx;16;Fecha inválida: 'ayer';N-1515 | ayer | C301 | 3 | 1900
+ventas_norte_2026-10-20.xlsx;32;Falta el código de producto;N-1531 | 20/10/2026 |  | 4 | 3900
+ventas_oeste_2026-10-20.xlsx;13;Cantidad inválida: 'dos';O-2012 | 20/10/2026 | B201 | dos | 2800
+ventas_oeste_2026-10-20.xlsx;29;Falta el número de venta; | 20/10/2026 | D400 | 4 | 9800

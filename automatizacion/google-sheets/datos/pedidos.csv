@@ -1,0 +1,27 @@
+N° pedido,Fecha,Cliente,Código,Cantidad,Estado,Observaciones
+1001,17/10/2026,Kiosco El Sol,LIM-001,12,Procesado,Stock descontado el 17/10/2026
+1002,17/10/2026,Hotel del Parque,LIM-010,24,Procesado,Stock descontado el 17/10/2026
+1003,18/10/2026,Bar Central,LIM-002,10,Procesado,Stock descontado el 18/10/2026
+1004,19/10/2026,Almacén La Esquina,LIM-007,20,Procesado,Stock descontado el 19/10/2026
+1005,19/10/2026,Lavadero Burbujas,LIM-006,8,Procesado,Stock descontado el 19/10/2026
+1006,20/10/2026,Club Social Norte,LIM-005,15,Procesado,Stock descontado el 20/10/2026
+1007,20/10/2026,Autoservicio Los Pinos,LIM-010,30,Procesado,Stock descontado el 20/10/2026
+1008,21/10/2026,Hotel del Parque,LIM-011,10,Procesado,Stock descontado el 21/10/2026
+1009,21/10/2026,Kiosco El Sol,LIM-008,6,Procesado,Stock descontado el 21/10/2026
+1010,21/10/2026,Bar Central,LIM-001,18,Procesado,Stock descontado el 21/10/2026
+1011,21/10/2026,Lavadero Burbujas,LIM-003,4,Procesado,Stock descontado el 21/10/2026
+1012,21/10/2026,Almacén La Esquina,LIM-002,9,Procesado,Stock descontado el 21/10/2026
+1013,22/10/2026,Kiosco El Sol,LIM-001,10,Pendiente,
+1014,22/10/2026,Almacén La Esquina,LIM-004,8,Pendiente,
+1015,22/10/2026,Bar Central,LIM-099,5,Pendiente,
+1016,22/10/2026,Hotel del Parque,LIM-002,dos,Pendiente,
+1017,22/10/2026,Club Social Norte, lim-007 ,15,Pendiente,
+1018,31/09/2026,Autoservicio Los Pinos,LIM-005,6,Pendiente,
+1019,23/10/2026,Lavadero Burbujas,LIM-009,6,Pendiente,
+1020,23/10/2026,,LIM-010,12,Pendiente,
+1021,23/10/2026,Kiosco El Sol,LIM-003,40,Pendiente,
+1022,23/10/2026,Bar Central,LIM-008,-3,Pendiente,
+1023,25/10/2026,Hotel del Parque,LIM-011,4,Pendiente,
+1024,23/10/2026,Almacén La Esquina,LIM-010,2.5,Pendiente,
+1008,23/10/2026,Hotel del Parque,LIM-011,3,Pendiente,
+1025,23/10/2026,Club Social Norte,LIM-012,5,Pendiente,

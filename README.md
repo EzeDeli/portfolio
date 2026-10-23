@@ -41,6 +41,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 |---|---|---|
 | [**Carga automática de Excel**](automatizacion/carga-excel) | Las planillas de cada sucursal se cargan solas en la base: limpia y valida cada fila, separa los errores con el motivo y avisa por mail. Antes se copiaban a mano. | Python · openpyxl · SQL · SMTP |
 | [**Tickets automáticos por API**](automatizacion/tickets-api) | Cuando baja el stock, se demora un pedido o entra un reclamo, la base lo detecta, se crea el ticket en la mesa de ayuda por API y llega un mail al área. Con reintentos y sin duplicados. | Python · SQL (triggers) · API REST · SMTP |
+| [**Planilla de Google Sheets que se controla sola**](automatizacion/google-sheets) | Pedidos y stock en una planilla compartida: marca los errores al cargar, descuenta el stock, avisa por mail cuando un producto llega al mínimo (una sola vez) y manda un resumen cada lunes. Con registro de cada ejecución. | Google Apps Script · Google Sheets · Node.js (tests) |
 
 ### 📊 Datos
 
@@ -58,7 +59,7 @@ Trabajo como desarrollador en el área de Sistemas de Digitrack: migré la aplic
 
 - **Desarrollo web a medida**, front-end y back-end: sistemas internos, formularios, paneles de gestión.
 - **Bases de datos:** consultas lentas, limpieza de datos, validaciones y modelado.
-- **Automatización:** integraciones entre sistemas por API, alertas, tareas programadas.
+- **Automatización:** integraciones entre sistemas por API, alertas, tareas programadas, planillas de Google Sheets con Apps Script.
 - **ETL y reportes:** datos de Excel, CSV o APIs ordenados en una base, y dashboards en Power BI.
 
 Trabajo con desarrollo asistido por IA para entregar rápido, y siempre arranco entendiendo las reglas del negocio.
